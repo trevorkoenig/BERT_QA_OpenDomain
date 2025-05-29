@@ -10,6 +10,7 @@ This project implements a full open-domain question answering (QA) system using 
 - Applies a custom scoring system for span selection from long documents.
 - Compares BERT predictions against ChatGPT for performance analysis.
 - Designed to run in Google Colab with persistent model saving to Drive.
+- Further details including visualizations, and breakdowns of scoring can be found in the accompanying poster.
 
 ## Installation
 
@@ -76,7 +77,7 @@ Encapsulates:
 
 - Each question is also submitted to OpenAI’s GPT (via API).
 - Outputs from both BERT and ChatGPT are recorded.
-- The results are written to a CSV file for manual review:
+- The results are written to a CSV file for manual review.
   ```
   | question | BERT_Ans | ChatGPT_Ans |
   ```
